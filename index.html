@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+ <div class="main">
+    <div class="to-do">
+        <div class="header"><h1>To Do List <i class='bx bx-book bk'></i></h1>
+            <input id="input" type="text" placeholder="Write here...">
+            <button onclick="addThings()" class="add">Add</button></div>
+
+            <div >
+                <ul id="content" class="mylist" >
+                    <!-- <li class="checked">Buy a Book</li>
+                    <li>Pay bills</li> -->
+                </ul>
+            </div>
+    </div>
+ </div>
+    
+</body>
+
+<script src="./to-do.js"></script>
+</html>
